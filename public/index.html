@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Panamera | My Music</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Config (for custom colors and font) -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#A0522D', // warm orange
+              cream: '#f5f5dc',   // soft text color
+              dark: '#1a1a1a',    // consistent dark bg
+            },
+            fontFamily: {
+              sans: ['Fredoka', 'sans-serif'],
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Optional: Custom Font (Inter) -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body class="bg-dark text-cream font-sans antialiased">
+    <div id="root"></div>
+  </body>
+</html>
